@@ -1,0 +1,9 @@
+{
+    "name": "Angular-Node-Express-App-Template",
+    "version": "0.0.1",
+    "description": "Template project used to get up and running quickly with AngularJS",
+    "license": "CC-BY-NC-SA-4.0",
+    "dependencies": {
+        "express": "~3.3.4"
+    }
+}
