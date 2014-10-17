@@ -42,5 +42,6 @@ Angular-Node-Express-App-Template
   - If you encounter the error `listen EADDRINUSE`, this means that the server address on port 3000 is already in use. You can:
     - Close the process using port 3000
     - Edit server.js variable portNum to be another value.
+  - Then, go back to the command line with the keyboard shortcut `Ctrl + c` and run `nodemon server.js` again.
 
-9. Since this is a template, there will not be much to see when you open the page. Everything is set up to begin development on an AngualrJS app. 
+9. Since this is a template, there will not be much to see when you open the page. I have included a simple app to help new developers understand how everything is supposed to work. Everything is set up to begin development on an AngualrJS app. 
