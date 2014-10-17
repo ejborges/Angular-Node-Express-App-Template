@@ -27,11 +27,11 @@ Angular-Node-Express-App-Template
 4. Cloning this repository
     1. Navigate to a folder directory on your machine outside of the folder you normally use to store you projects and where you would want to clone this repository to (ex. I want to clone into \Documents\Projects, so you want to be in \Documents outside of the \Projects folder). 
     2. If you installed Git, right click on your equivalent \Projects folder and select `Git Bash`
-    3. If you run into an ssl/certificate error, execute the following command to disable SSL certificate verification. This is needed because the Git server's certificate is self signed. This command configures Git globally, so it only needs to be run once.
+    3. Clone this repository by copying and pasting this command `git clone https://github.com/ejborges/Angular-Node-Express-App-Template.git` into the git terminal window (in git, the `Insert` key = paste), then press `Enter`. 
+    4. If you run into an ssl/certificate error, execute the following command to disable SSL certificate verification. This is needed because the Git server's certificate is self signed. This command configures Git globally, so it only needs to be run once.
           
             git config --global http.sslVerify false
           
-    4. Clone this repository by copying and pasting this command `git clone https://github.com/ejborges/Angular-Node-Express-App-Template.git` into the git terminal window (in git, the `Insert` key = paste), then press `Enter`. 
 
 5. The repository will now be cloned into your equivalent \Projects folder and be named **Angular-Node-Express-App-Template**.
 
