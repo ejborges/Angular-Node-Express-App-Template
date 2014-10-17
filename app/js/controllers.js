@@ -7,9 +7,9 @@ var module = angular.module("controllers", ['services']);
 module.controller(
     'controllerOne',
     [
-        '$scope',
+        '$scope', // scope for this controller
         '$location',
-        'serviceOne',
+        'serviceOne', // include access to serviceOne
         function($scope, $location, serviceOne) {
             $scope.number = 0;
             $scope.clicks = 0;

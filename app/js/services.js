@@ -7,9 +7,9 @@ var module = angular.module('services', []);
 module.factory(
     'serviceOne',
     [
-        '$rootScope',
+        '$rootScope', // if you need to get access to angular's $rootScope
         function($rootScope) {
-            var something;
+            var something; // you can include variables up here too.
 
             return {
                 methodOne: function(number) {
@@ -27,8 +27,7 @@ module.factory(
 module.factory(
     'serviceTwo',
     [
-        '$rootScope',
-        function($rootScope) {
+        function() {
             return {
                 methodOne: function(array) {
                     array.push((array[array.length - 2]) + (array[array.length - 1]));
